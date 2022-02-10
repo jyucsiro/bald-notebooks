@@ -36,7 +36,7 @@ RUN jupyter nbextension enable spellchecker/main
 RUN jupyter nbextension enable toggle_all_line_numbers/main
 
 # Add notebooks to the docker image
-#COPY *.ipynb /home/jovyan/
+COPY *.ipynb /home/jovyan/
 
 
 USER root
