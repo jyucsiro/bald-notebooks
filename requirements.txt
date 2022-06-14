@@ -1,4 +1,4 @@
-git+https://github.com/binary-array-ld/bald.git
+git+https://github.com/jyucsiro/bald.git@global-attr-prefixes
 numpy
 h5py
 netCDF4==1.3.1
